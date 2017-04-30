@@ -1,0 +1,33 @@
+<html>
+<head>
+	<title>Color Game</title>
+	<link rel="stylesheet" type="text/css" href="colorgame.css">
+</head>
+<body>
+<!--section 1: set h1 tage. -->
+	<h1>THE GREAT RGB 
+		<br>
+		<span id="colordata"></span>
+		<br>
+		GUESSING GAME
+	</h1>
+<!--section 2: set operation buttons-->	
+	<div class="stripe">
+		<button id="newcolor">New Colors</button>
+		<span id="message"></span>
+		<button id="easy">Easy</button>
+		<button id="hard" class="selected">Hard</button>
+	</div>
+<!--section 3: color block -->
+	<div id="container">
+		<div id="c1" class="square"></div>
+		<div id="c2" class="square"></div>
+		<div id="c3" class="square"></div>
+		<div id="c4" class="square"></div>
+		<div id="c5" class="square"></div>
+		<div id="c6" class="square"></div>
+	</div>
+<!--call javascript file -->
+	<script type="text/javascript" src="colorgame.js"></script>
+</body>
+</html>
